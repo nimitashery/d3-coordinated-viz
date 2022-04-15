@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Coordinated Visualization with D3- Nimita Shery</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div style="background-color: #504f54;">	
+			<div class="container-fluid">
+				<nav class="navbar navbar-expand-lg navbar-expand">
+					<div class="container-fluid col-md-12">
+						<a class="navbar-brand" href="index.html">Risk Factors Leading to Cardiovascular Diseases</a>
+					</div>
+				</nav>
+			</div>
+		</div>
+
+		<!--put your initial page content here-->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+					<div id="panel">
+						<p class="panel-description">
+							Cardiovascular disease (CVD) is the major cause of death in the world.
+							The exact cause of CVD isn't clear, but there are lots of things that can increase your risk of getting it. These are called "risk factors".
+							
+							The more risk factors you have, the greater your chances of developing CVD.<br>
+							The main risk factors for CVD are outlined below:
+						</p>
+						<p class="panel-description">
+							<b>High Blood Pressure</b><br>
+							High blood pressure (hypertension) is one of the most important risk factors for CVD. If your blood pressure is too high, it can damage your blood vessels.<br>							
+						</p>
+						<p class="panel-description">
+							<b>High Cholesterol (High LDL)</b><br>
+							Cholesterol is a fatty substance found in the blood. If you have high cholesterol, it can cause your blood vessels to narrow and increase your risk of developing a blood clot.<br>					
+						</p>
+						<p class="panel-description">
+							<b>Diabetes</b><br>
+							Diabetes is a lifelong condition that causes your blood sugar level to become too high. High blood sugar levels can damage the blood vessels, making them more likely to become narrowed.<br>			
+						</p>
+						<p class="panel-description">
+							<b>Smoking</b><br>
+							Smoking and other tobacco use is also a significant risk factor for CVD. The harmful substances in tobacco can damage and narrow your blood vessels.<br>							
+						</p>
+						<p class="panel-description">
+							<b>Being overweight or obese (High BMI)</b><br>
+							Being overweight or obese increases your risk of developing diabetes and high blood pressure, both of which are risk factors for CVD. You're at an increased risk of CVD if your body mass index (BMI) is 25 or above.<br>
+						</p>
+						<p class="panel-description">
+							<b>Unhealthy Diet</b><br>
+							An unhealthy diet can lead to high cholesterol and high blood pressure.<br>
+						</p>
+						<p class="panel-description">
+							<b>Inactivity</b><br>
+							If you don't exercise regularly, it's more likely that you'll have high blood pressure, high cholesterol levels and be overweight. All of these are risk factors for CVD.<br>Exercising regularly will help keep your heart healthy. When combined with a healthy diet, exercise can also help you maintain a healthy weight.<br>					
+						</p>
+						<p class="panel-data">
+							<strong>Data Sources: </strong>
+							<a href="http://ghdx.healthdata.org/gbd-results-tool">Global Burden of Disease Collaborative Network</a><br>
+							
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-8">
+					<div id="mydiv"></div>
+					<!-- <div id="panel"></div> -->
+				</div>
+			</div> <!--end of .row-->
+		</div> <!--end of .container-fluid-->
+
+        
+        <script type="text/javascript" src="lib/jquery-3.6.0.js"></script>
+        <script type="text/javascript" src="lib/topojson/topojson.js"></script>
+        <script type="text/javascript" src="lib/d3-7.3.0/package/dist/d3.js"></script>
+        <script type="text/javascript" src="lib/bootstrap.js"></script>
+        <script type="text/javascript" src="lib/bootstrap.min.js"></script>
+		<!-- <script type="text/javascript" src="lib/simple-statistics.js"></script> -->
+        <!-- <script type="text/javascript" src="lib/d3.geo.projection.min.js"></script> -->
+		<script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
